@@ -24,13 +24,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/olympusmod/block/FireBlockBlock.java",
-          "src/main/resources/assets/olympusmod/models/item/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_block.json",
-          "src/main/resources/assets/olympusmod/blockstates/fire_block.json",
           "src/main/resources/assets/olympusmod/models/block/fire_block.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireBlockFeature.java",
           "src/main/resources/data/olympusmod/forge/biome_modifier/fire_block_biome_modifier.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireBlockFeature.java"
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_block.json",
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_block.json",
+          "src/main/resources/assets/olympusmod/models/item/fire_block.json",
+          "src/main/resources/assets/olympusmod/blockstates/fire_block.json"
         ]
       }
     },

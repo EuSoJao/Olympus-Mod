@@ -59,6 +59,50 @@
           "src/main/resources/data/olympusmod/recipes/fire_swordrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Olympus",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olympus",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PureFireIgniterRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_fire_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/olympusmod/recipes/pure_fire_igniter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FireStoneOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_stone_ore.json",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_stone_ore_biome_modifier.json",
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireStoneOreFeature.java",
+          "src/main/java/net/mcreator/olympusmod/block/FireStoneOreBlock.java",
+          "src/main/resources/assets/olympusmod/models/item/fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/models/block/fire_stone_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -66,6 +110,7 @@
   "language_map": {
     "en_us": {
       "item.olympusmod.fire_sword": "Fire Sword",
+      "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
       "item.olympusmod.fire_stone": "Fire Stone"
     }
   },

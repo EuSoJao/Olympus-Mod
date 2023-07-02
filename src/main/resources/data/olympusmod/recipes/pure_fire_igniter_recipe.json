@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "item",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "olympusmod:fire_stone"
+    }
+  ],
+  "result": {
+    "item": "olympusmod:deleted_mod_element",
+    "count": 1
+  }
+}

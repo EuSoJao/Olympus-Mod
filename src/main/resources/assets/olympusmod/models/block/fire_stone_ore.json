@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "olympusmod:block/diamond_ore",
+    "up": "olympusmod:block/diamond_ore",
+    "north": "olympusmod:block/diamond_ore",
+    "east": "olympusmod:block/diamond_ore",
+    "south": "olympusmod:block/diamond_ore",
+    "west": "olympusmod:block/diamond_ore",
+    "particle": "olympusmod:block/diamond_ore"
+  },
+  "render_type": "solid"
+}

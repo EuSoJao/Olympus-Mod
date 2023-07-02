@@ -51,7 +51,8 @@ public class FireSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Tem o poder de clocar fogo no inimigo atingido"));
+		list.add(Component.literal("Forjada com o metal de poder de uma Phoenix"));
+		list.add(Component.literal("essa espada tem o poder de clocar fogo no inimigo atingido"));
 	}
 
 	@Override

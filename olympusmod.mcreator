@@ -79,12 +79,29 @@
           "src/main/resources/data/olympusmod/recipes/fire_swordrecipe.json"
         ]
       }
+    },
+    {
+      "name": "DeepslateFireStoneOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_fire_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/olympusmod/models/item/deepslate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/block/DeepslateFireStoneOreBlock.java",
+          "src/main/resources/assets/olympusmod/models/block/deepslate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/deepslate_fire_stone_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
       "block.olympusmod.fire_block": "Fire Block",
       "item.olympusmod.fire_sword": "Fire Sword",
       "item.olympusmod.fire_stone": "Fire Stone"

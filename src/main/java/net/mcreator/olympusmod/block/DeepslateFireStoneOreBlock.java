@@ -11,7 +11,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.olympusmod.init.OlympusmodModItems;
@@ -19,19 +18,14 @@ import net.mcreator.olympusmod.init.OlympusmodModItems;
 import java.util.List;
 import java.util.Collections;
 
-public class FireBlockBlock extends Block {
-	public FireBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(4f, 9f).requiresCorrectToolForDrops());
+public class DeepslateFireStoneOreBlock extends Block {
+	public DeepslateFireStoneOreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(5f, 11f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
-		return true;
 	}
 
 	@Override

@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "deepslate",
-    "textureTop": "deepslate",
-    "textureLeft": "deepslate",
-    "textureFront": "deepslate",
-    "textureRight": "deepslate",
-    "textureBack": "deepslate",
+    "texture": "diamond_ore",
+    "textureTop": "diamond_ore",
+    "textureLeft": "diamond_ore",
+    "textureFront": "diamond_ore",
+    "textureRight": "diamond_ore",
+    "textureBack": "diamond_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -17,7 +17,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": false,
+    "isItemTinted": true,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Deepslate Fire Stone Ore",
+    "name": "Fire Stone Ore",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 11.0,
+    "hardness": 4.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Olympus"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -123,13 +123,22 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 2,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": 0
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

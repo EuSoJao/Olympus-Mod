@@ -1,7 +1,7 @@
 {
-  "type": "olympusmod:fire_block",
+  "type": "olympusmod:fire_stone_ore",
   "config": {
-    "size": 2,
+    "size": 16,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -12,18 +12,7 @@
           }
         },
         "state": {
-          "Name": "olympusmod:fire_block"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:diorite"
-          }
-        },
-        "state": {
-          "Name": "olympusmod:fire_block"
+          "Name": "olympusmod:fire_stone_ore"
         }
       },
       {
@@ -34,7 +23,29 @@
           }
         },
         "state": {
-          "Name": "olympusmod:fire_block"
+          "Name": "olympusmod:fire_stone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "olympusmod:fire_stone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "olympusmod:fire_stone_ore"
         }
       }
     ]

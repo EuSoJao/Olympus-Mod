@@ -14,6 +14,28 @@
         "state": {
           "Name": "olympusmod:fire_block"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "olympusmod:fire_block"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        "state": {
+          "Name": "olympusmod:fire_block"
+        }
       }
     ]
   }

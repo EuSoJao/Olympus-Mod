@@ -15,26 +15,6 @@
       }
     },
     {
-      "name": "FireBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fire_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/olympusmod/block/FireBlockBlock.java",
-          "src/main/resources/assets/olympusmod/models/item/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_block.json",
-          "src/main/resources/assets/olympusmod/blockstates/fire_block.json",
-          "src/main/resources/assets/olympusmod/models/block/fire_block.json",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_block_biome_modifier.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireBlockFeature.java"
-        ]
-      }
-    },
-    {
       "name": "FireSwordQuandoAFerramentaEstiverNoInventario",
       "type": "procedure",
       "sortid": 3,
@@ -79,34 +59,12 @@
           "src/main/resources/data/olympusmod/recipes/fire_swordrecipe.json"
         ]
       }
-    },
-    {
-      "name": "DeepslateFireStoneOre",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deepslate_fire_stone_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/olympusmod/models/item/deepslate_fire_stone_ore.json",
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/deepslate_fire_stone_ore.json",
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/deepslate_fire_stone_ore.json",
-          "src/main/java/net/mcreator/olympusmod/block/DeepslateFireStoneOreBlock.java",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/deepslate_fire_stone_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepslateFireStoneOreFeature.java",
-          "src/main/resources/assets/olympusmod/models/block/deepslate_fire_stone_ore.json",
-          "src/main/resources/assets/olympusmod/blockstates/deepslate_fire_stone_ore.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
-      "block.olympusmod.fire_block": "Fire Block",
       "item.olympusmod.fire_sword": "Fire Sword",
       "item.olympusmod.fire_stone": "Fire Stone"
     }

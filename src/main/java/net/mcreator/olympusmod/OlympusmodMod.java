@@ -30,8 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.olympusmod.init.OlympusmodModItems;
-import net.mcreator.olympusmod.init.OlympusmodModFeatures;
-import net.mcreator.olympusmod.init.OlympusmodModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,10 +49,7 @@ public class OlympusmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		OlympusmodModBlocks.REGISTRY.register(bus);
 		OlympusmodModItems.REGISTRY.register(bus);
-
-		OlympusmodModFeatures.REGISTRY.register(bus);
 
 	}
 

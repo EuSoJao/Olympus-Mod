@@ -22,10 +22,5 @@ public class OlympusmodModTabs {
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(OlympusmodModItems.FIRE_STONE.get());
 		}
-
-		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(OlympusmodModBlocks.FIRE_BLOCK.get().asItem());
-			tabData.accept(OlympusmodModBlocks.DEEPSLATE_FIRE_STONE_ORE.get().asItem());
-		}
 	}
 }

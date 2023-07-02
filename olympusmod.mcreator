@@ -99,6 +99,20 @@
           "src/main/resources/assets/olympusmod/blockstates/deepslate_fire_stone_ore.json"
         ]
       }
+    },
+    {
+      "name": "Picagods",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picagods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/olympusmod/item/PicagodsItem.java",
+          "src/main/resources/assets/olympusmod/models/item/picagods.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -107,6 +121,7 @@
     "en_us": {
       "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
       "block.olympusmod.fire_block": "Fire Block",
+      "item.olympusmod.picagods": "Picagods",
       "item.olympusmod.fire_sword": "Fire Sword",
       "item.olympusmod.fire_stone": "Fire Stone"
     }

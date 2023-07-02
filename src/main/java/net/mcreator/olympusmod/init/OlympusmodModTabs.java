@@ -27,5 +27,9 @@ public class OlympusmodModTabs {
 			tabData.accept(OlympusmodModBlocks.FIRE_BLOCK.get().asItem());
 			tabData.accept(OlympusmodModBlocks.DEEPSLATE_FIRE_STONE_ORE.get().asItem());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(OlympusmodModItems.PICAGODS.get());
+		}
 	}
 }

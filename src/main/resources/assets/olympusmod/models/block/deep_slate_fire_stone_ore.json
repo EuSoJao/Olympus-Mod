@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "olympusmod:block/deepslate",
+    "up": "olympusmod:block/deepslate",
+    "north": "olympusmod:block/deepslate",
+    "east": "olympusmod:block/deepslate",
+    "south": "olympusmod:block/deepslate",
+    "west": "olympusmod:block/deepslate",
+    "particle": "olympusmod:block/deepslate"
+  },
+  "render_type": "solid"
+}

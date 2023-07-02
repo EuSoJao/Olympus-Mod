@@ -1,5 +1,5 @@
 {
-  "feature": "olympusmod:fire_stone_ore",
+  "feature": "olympusmod:deep_slate_fire_stone_ore",
   "placement": [
     {
       "type": "minecraft:count",
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 0
+          "absolute": -64
         },
         "max_inclusive": {
-          "absolute": 20
+          "absolute": 0
         }
       }
     },

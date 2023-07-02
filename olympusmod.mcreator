@@ -103,6 +103,26 @@
           "src/main/resources/assets/olympusmod/models/block/fire_stone_ore.json"
         ]
       }
+    },
+    {
+      "name": "DeepSlateFireStoneOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_slate_fire_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/deep_slate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/block/DeepSlateFireStoneOreBlock.java",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/deep_slate_fire_stone_ore_biome_modifier.json",
+          "src/main/resources/assets/olympusmod/models/block/deep_slate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/models/item/deep_slate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepSlateFireStoneOreFeature.java",
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/deep_slate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/deep_slate_fire_stone_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -111,7 +131,8 @@
     "en_us": {
       "item.olympusmod.fire_sword": "Fire Sword",
       "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
-      "item.olympusmod.fire_stone": "Fire Stone"
+      "item.olympusmod.fire_stone": "Fire Stone",
+      "block.olympusmod.deep_slate_fire_stone_ore": "DeepSlate FireStone Ore"
     }
   },
   "foldersRoot": {

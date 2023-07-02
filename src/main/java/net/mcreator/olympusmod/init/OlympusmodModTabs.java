@@ -21,6 +21,7 @@ public class OlympusmodModTabs {
 					tabData.accept(OlympusmodModItems.FIRE_STONE.get());
 					tabData.accept(OlympusmodModItems.FIRE_SWORD.get());
 					tabData.accept(OlympusmodModBlocks.FIRE_STONE_ORE.get().asItem());
+					tabData.accept(OlympusmodModBlocks.DEEP_SLATE_FIRE_STONE_ORE.get().asItem());
 				}).withSearchBar());
 	}
 }

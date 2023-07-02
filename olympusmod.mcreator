@@ -1,0 +1,116 @@
+{
+  "mod_elements": [
+    {
+      "name": "FireStone",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/olympusmod/item/FireStoneItem.java",
+          "src/main/resources/assets/olympusmod/models/item/fire_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "FireBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/olympusmod/block/FireBlockBlock.java",
+          "src/main/resources/assets/olympusmod/models/item/fire_block.json",
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_block.json",
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_block.json",
+          "src/main/resources/assets/olympusmod/blockstates/fire_block.json",
+          "src/main/resources/assets/olympusmod/models/block/fire_block.json",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_block_biome_modifier.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireBlockFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "FireSwordQuandoAFerramentaEstiverNoInventario",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword_quando_a_ferramenta_estiver_no_inventario",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/olympusmod/procedures/FireSwordQuandoAFerramentaEstiverNoInventarioProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/olympusmod/models/item/fire_sword.json",
+          "src/main/java/net/mcreator/olympusmod/item/FireSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FireSwordrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_swordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/olympusmod/recipes/fire_swordrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.olympusmod.fire_block": "Fire Block",
+      "item.olympusmod.fire_sword": "Fire Sword",
+      "item.olympusmod.fire_stone": "Fire Stone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "olympusmod",
+    "modName": "OlympusMod",
+    "version": "1.0.0",
+    "author": "guima, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.olympusmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

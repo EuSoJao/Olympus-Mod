@@ -1,0 +1,43 @@
+{
+  "_fv": 43,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "river"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:FireBlock"
+    },
+    "fluidBlock": {
+      "value": "Blocks.MAGMA"
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:FireBlock"
+    },
+    "portalParticles": {
+      "value": "SPIT"
+    },
+    "portalLuminance": 1,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Pure Fire Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "fire_igniter",
+    "portalTexture": "deepslate",
+    "enablePortal": true
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "olympusmod:fire_block"
+    "olympusmod:fire_block",
+    "olympusmod:deepslate_fire_stone_ore"
   ]
 }

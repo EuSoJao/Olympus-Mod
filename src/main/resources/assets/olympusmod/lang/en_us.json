@@ -1,5 +1,8 @@
 {
+  "item.olympusmod.pure_fire": "Pure Fire Portal Igniter",
+  "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
   "block.olympusmod.fire_block": "Fire Block",
   "item.olympusmod.fire_sword": "Fire Sword",
+  "item_group.olympusmod.olympus": "Olympus",
   "item.olympusmod.fire_stone": "Fire Stone"
 }

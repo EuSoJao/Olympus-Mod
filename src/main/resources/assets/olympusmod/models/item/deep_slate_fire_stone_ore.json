@@ -1,5 +1,5 @@
 {
-  "parent": "olympusmod:block/deepslate_fire_stone_ore",
+  "parent": "olympusmod:block/deep_slate_fire_stone_ore",
   "display": {
     "thirdperson": {
       "rotation": [

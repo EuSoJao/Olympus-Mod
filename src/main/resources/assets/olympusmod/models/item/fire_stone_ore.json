@@ -1,5 +1,5 @@
 {
-  "parent": "olympusmod:block/fire_block",
+  "parent": "olympusmod:block/fire_stone_ore",
   "display": {
     "thirdperson": {
       "rotation": [

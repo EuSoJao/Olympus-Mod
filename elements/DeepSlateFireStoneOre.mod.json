@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "diamond_ore",
-    "textureTop": "diamond_ore",
-    "textureLeft": "diamond_ore",
-    "textureFront": "diamond_ore",
-    "textureRight": "diamond_ore",
-    "textureBack": "diamond_ore",
+    "texture": "deepslate",
+    "textureTop": "deepslate",
+    "textureLeft": "deepslate",
+    "textureFront": "deepslate",
+    "textureRight": "deepslate",
+    "textureBack": "deepslate",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Fire Block",
+    "name": "DeepSlate FireStone Ore",
     "specialInfo": [],
-    "hardness": 4.0,
-    "resistance": 9.0,
+    "hardness": 6.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Olympus"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -51,7 +51,7 @@
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
       "value": "ROCK"
@@ -123,19 +123,16 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
+        "value": "Blocks.DEEPSLATE"
+      },
+      {
         "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#1"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 2,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": 30
+    "maxGenerateHeight": 0
   }
 }

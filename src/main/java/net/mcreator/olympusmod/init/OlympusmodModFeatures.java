@@ -11,8 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
-import net.mcreator.olympusmod.world.features.ores.FireBlockFeature;
-import net.mcreator.olympusmod.world.features.ores.DeepslateFireStoneOreFeature;
 import net.mcreator.olympusmod.OlympusmodMod;
 
 @Mod.EventBusSubscriber

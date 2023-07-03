@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "olympusmod:deepslate_fire_stone_ore",
+  "features": "olympusmod:deep_slate_fire_stone_ore",
   "step": "underground_ores"
 }

@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.olympusmod.item.PureFireItem;
 import net.mcreator.olympusmod.item.FireSwordItem;
 import net.mcreator.olympusmod.item.FireStoneItem;
 import net.mcreator.olympusmod.OlympusmodMod;

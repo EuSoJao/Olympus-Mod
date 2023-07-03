@@ -15,26 +15,6 @@
       }
     },
     {
-      "name": "FireBlock",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fire_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/olympusmod/block/FireBlockBlock.java",
-          "src/main/resources/assets/olympusmod/models/item/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_block.json",
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_block.json",
-          "src/main/resources/assets/olympusmod/blockstates/fire_block.json",
-          "src/main/resources/assets/olympusmod/models/block/fire_block.json",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_block_biome_modifier.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireBlockFeature.java"
-        ]
-      }
-    },
-    {
       "name": "FireSwordQuandoAFerramentaEstiverNoInventario",
       "type": "procedure",
       "sortid": 3,
@@ -81,46 +61,14 @@
       }
     },
     {
-      "name": "DeepslateFireStoneOre",
-      "type": "block",
-      "sortid": 6,
+      "name": "Olympus",
+      "type": "tab",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "deepslate_fire_stone_ore",
+      "registry_name": "olympus",
       "metadata": {
-        "files": [
-          "src/main/resources/assets/olympusmod/models/item/deepslate_fire_stone_ore.json",
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/deepslate_fire_stone_ore.json",
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/deepslate_fire_stone_ore.json",
-          "src/main/java/net/mcreator/olympusmod/block/DeepslateFireStoneOreBlock.java",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/deepslate_fire_stone_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepslateFireStoneOreFeature.java",
-          "src/main/resources/assets/olympusmod/models/block/deepslate_fire_stone_ore.json",
-          "src/main/resources/assets/olympusmod/blockstates/deepslate_fire_stone_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "PureFire",
-      "type": "dimension",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pure_fire",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/olympusmod/dimension/pure_fire.json",
-          "src/main/java/net/mcreator/olympusmod/item/PureFireItem.java",
-          "src/main/java/net/mcreator/olympusmod/world/dimension/PureFireDimension.java",
-          "src/main/java/net/mcreator/olympusmod/block/PureFirePortalBlock.java",
-          "src/main/resources/data/olympusmod/dimension_type/pure_fire.json",
-          "src/main/java/net/mcreator/olympusmod/world/teleporter/PureFirePortalShape.java",
-          "src/main/resources/assets/olympusmod/blockstates/pure_fire_portal.json",
-          "src/main/java/net/mcreator/olympusmod/world/teleporter/PureFireTeleporter.java",
-          "src/main/resources/assets/olympusmod/models/block/pure_fire_portal_ew.json",
-          "src/main/resources/assets/olympusmod/models/block/pure_fire_portal_ns.json",
-          "src/main/resources/assets/olympusmod/models/item/pure_fire.json"
-        ]
+        "files": []
       }
     },
     {
@@ -137,14 +85,57 @@
       }
     },
     {
-      "name": "Olympus",
-      "type": "tab",
-      "sortid": 9,
+      "name": "FireStoneOre",
+      "type": "block",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "olympus",
+      "registry_name": "fire_stone_ore",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_stone_ore.json",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_stone_ore_biome_modifier.json",
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireStoneOreFeature.java",
+          "src/main/java/net/mcreator/olympusmod/block/FireStoneOreBlock.java",
+          "src/main/resources/assets/olympusmod/models/item/fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/models/block/fire_stone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepSlateFireStoneOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_slate_fire_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/deep_slate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/block/DeepSlateFireStoneOreBlock.java",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/deep_slate_fire_stone_ore_biome_modifier.json",
+          "src/main/resources/assets/olympusmod/models/block/deep_slate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/models/item/deep_slate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepSlateFireStoneOreFeature.java",
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/deep_slate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/deep_slate_fire_stone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Picagods",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picagods",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/olympusmod/item/PicagodsItem.java",
+          "src/main/resources/assets/olympusmod/models/item/picagods.json"
+        ]
       }
     }
   ],
@@ -152,11 +143,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.olympusmod.pure_fire": "Pure Fire Portal Igniter",
-      "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
-      "block.olympusmod.fire_block": "Fire Block",
       "item.olympusmod.fire_sword": "Fire Sword",
-      "item_group.olympusmod.olympus": "Olympus",
       "item.olympusmod.fire_stone": "Fire Stone"
     }
   },

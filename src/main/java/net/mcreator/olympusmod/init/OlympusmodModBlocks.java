@@ -10,9 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.olympusmod.block.PureFirePortalBlock;
-import net.mcreator.olympusmod.block.FireBlockBlock;
-import net.mcreator.olympusmod.block.DeepslateFireStoneOreBlock;
 import net.mcreator.olympusmod.OlympusmodMod;
 
 public class OlympusmodModBlocks {

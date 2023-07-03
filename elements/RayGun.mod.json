@@ -1,44 +1,27 @@
 {
   "_fv": 43,
-  "_type": "item",
+  "_type": "tool",
   "definition": {
     "renderType": 1,
     "texture": "ray_gun",
     "customModelName": "ray_gun:default",
     "name": "Ray Gun",
-    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Olympus"
+      "value": "COMBAT"
     },
-    "stackSize": 64,
-    "enchantability": 0,
-    "useDuration": 0,
-    "toolType": 1.0,
-    "damageCount": 0,
-    "recipeRemainder": {
-      "value": ""
-    },
-    "destroyAnyBlock": false,
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Arma Espacial"
-    ],
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.3,
+    "enchantability": 2,
+    "damageVsEntity": 99999.0,
+    "usageCount": 99999,
+    "blocksAffected": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
-    "eatResultItem": {
-      "value": ""
-    },
-    "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none"
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true
   }
 }

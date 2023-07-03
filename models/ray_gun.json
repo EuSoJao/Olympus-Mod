@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "Ray_Gun",
+	"parent": "minecraft:Ray_Gun",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "block/Ray_Gun",

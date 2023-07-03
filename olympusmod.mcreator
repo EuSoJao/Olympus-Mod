@@ -127,7 +127,7 @@
     },
     {
       "name": "RayGun",
-      "type": "item",
+      "type": "tool",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,

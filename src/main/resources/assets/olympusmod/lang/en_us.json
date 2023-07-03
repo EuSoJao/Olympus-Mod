@@ -1,8 +1,8 @@
 {
-  "item.olympusmod.pure_fire": "Pure Fire Portal Igniter",
-  "block.olympusmod.deepslate_fire_stone_ore": "Deepslate Fire Stone Ore",
-  "block.olympusmod.fire_block": "Fire Block",
+  "item.olympusmod.picagods": "Picagods",
   "item.olympusmod.fire_sword": "Fire Sword",
   "item_group.olympusmod.olympus": "Olympus",
-  "item.olympusmod.fire_stone": "Fire Stone"
+  "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
+  "item.olympusmod.fire_stone": "Fire Stone",
+  "block.olympusmod.deep_slate_fire_stone_ore": "DeepSlate FireStone Ore"
 }

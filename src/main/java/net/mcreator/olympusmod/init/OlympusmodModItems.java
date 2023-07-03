@@ -12,17 +12,18 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.olympusmod.item.PicagodsItem;
 import net.mcreator.olympusmod.item.FireSwordItem;
 import net.mcreator.olympusmod.item.FireStoneItem;
 import net.mcreator.olympusmod.OlympusmodMod;
 
 public class OlympusmodModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, OlympusmodMod.MODID);
-	public static final RegistryObject<Item> FIRE_BLOCK = block(OlympusmodModBlocks.FIRE_BLOCK);
 	public static final RegistryObject<Item> FIRE_STONE = REGISTRY.register("fire_stone", () -> new FireStoneItem());
 	public static final RegistryObject<Item> FIRE_SWORD = REGISTRY.register("fire_sword", () -> new FireSwordItem());
-	public static final RegistryObject<Item> DEEPSLATE_FIRE_STONE_ORE = block(OlympusmodModBlocks.DEEPSLATE_FIRE_STONE_ORE);
-	public static final RegistryObject<Item> PURE_FIRE = REGISTRY.register("pure_fire", () -> new PureFireItem());
+	public static final RegistryObject<Item> PICAGODS = REGISTRY.register("picagods", () -> new PicagodsItem());
+	public static final RegistryObject<Item> FIRE_STONE_ORE = block(OlympusmodModBlocks.FIRE_STONE_ORE);
+	public static final RegistryObject<Item> DEEP_SLATE_FIRE_STONE_ORE = block(OlympusmodModBlocks.DEEP_SLATE_FIRE_STONE_ORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

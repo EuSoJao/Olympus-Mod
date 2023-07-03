@@ -93,14 +93,14 @@
       "registry_name": "fire_stone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_stone_ore.json",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_stone_ore_biome_modifier.json",
+          "src/main/resources/assets/olympusmod/models/block/fire_stone_ore.json",
           "src/main/resources/data/olympusmod/worldgen/placed_feature/fire_stone_ore.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireStoneOreFeature.java",
           "src/main/java/net/mcreator/olympusmod/block/FireStoneOreBlock.java",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/fire_stone_ore_biome_modifier.json",
           "src/main/resources/assets/olympusmod/models/item/fire_stone_ore.json",
-          "src/main/resources/assets/olympusmod/blockstates/fire_stone_ore.json",
-          "src/main/resources/assets/olympusmod/models/block/fire_stone_ore.json"
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/FireStoneOreFeature.java",
+          "src/main/resources/data/olympusmod/worldgen/configured_feature/fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/fire_stone_ore.json"
         ]
       }
     },
@@ -113,14 +113,14 @@
       "registry_name": "deep_slate_fire_stone_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/olympusmod/worldgen/placed_feature/deep_slate_fire_stone_ore.json",
+          "src/main/resources/assets/olympusmod/blockstates/deep_slate_fire_stone_ore.json",
           "src/main/java/net/mcreator/olympusmod/block/DeepSlateFireStoneOreBlock.java",
-          "src/main/resources/data/olympusmod/forge/biome_modifier/deep_slate_fire_stone_ore_biome_modifier.json",
-          "src/main/resources/assets/olympusmod/models/block/deep_slate_fire_stone_ore.json",
           "src/main/resources/assets/olympusmod/models/item/deep_slate_fire_stone_ore.json",
-          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepSlateFireStoneOreFeature.java",
           "src/main/resources/data/olympusmod/worldgen/configured_feature/deep_slate_fire_stone_ore.json",
-          "src/main/resources/assets/olympusmod/blockstates/deep_slate_fire_stone_ore.json"
+          "src/main/resources/assets/olympusmod/models/block/deep_slate_fire_stone_ore.json",
+          "src/main/resources/data/olympusmod/worldgen/placed_feature/deep_slate_fire_stone_ore.json",
+          "src/main/java/net/mcreator/olympusmod/world/features/ores/DeepSlateFireStoneOreFeature.java",
+          "src/main/resources/data/olympusmod/forge/biome_modifier/deep_slate_fire_stone_ore_biome_modifier.json"
         ]
       }
     },
@@ -133,8 +133,8 @@
       "registry_name": "picagods",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/olympusmod/item/PicagodsItem.java",
-          "src/main/resources/assets/olympusmod/models/item/picagods.json"
+          "src/main/resources/assets/olympusmod/models/item/picagods.json",
+          "src/main/java/net/mcreator/olympusmod/item/PicagodsItem.java"
         ]
       }
     }
@@ -143,8 +143,12 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.olympusmod.picagods": "Picagods",
       "item.olympusmod.fire_sword": "Fire Sword",
-      "item.olympusmod.fire_stone": "Fire Stone"
+      "item_group.olympusmod.olympus": "Olympus",
+      "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
+      "item.olympusmod.fire_stone": "Fire Stone",
+      "block.olympusmod.deep_slate_fire_stone_ore": "DeepSlate FireStone Ore"
     }
   },
   "foldersRoot": {

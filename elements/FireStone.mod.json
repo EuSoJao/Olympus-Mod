@@ -8,7 +8,7 @@
     "name": "Fire Stone",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:Olympus"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,

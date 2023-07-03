@@ -37,6 +37,7 @@ public class OlympusmodModTabs {
 				builder -> builder.title(Component.translatable("item_group.olympusmod.olympus")).icon(() -> new ItemStack(OlympusmodModItems.FIRE_STONE.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(OlympusmodModBlocks.FIRE_STONE_ORE.get().asItem());
 					tabData.accept(OlympusmodModBlocks.DEEP_SLATE_FIRE_STONE_ORE.get().asItem());
+					tabData.accept(OlympusmodModItems.RAY_GUN.get());
 				}).withSearchBar());
 	}
 }

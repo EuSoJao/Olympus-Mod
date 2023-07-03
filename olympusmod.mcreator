@@ -72,19 +72,6 @@
       }
     },
     {
-      "name": "PureFireIgniterRecipe",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pure_fire_igniter_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/olympusmod/recipes/pure_fire_igniter_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "FireStoneOre",
       "type": "block",
       "sortid": 10,
@@ -137,6 +124,20 @@
           "src/main/java/net/mcreator/olympusmod/item/PicagodsItem.java"
         ]
       }
+    },
+    {
+      "name": "RayGun",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_gun",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/olympusmod/models/item/ray_gun.json",
+          "src/main/java/net/mcreator/olympusmod/item/RayGunItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -145,6 +146,7 @@
     "en_us": {
       "item.olympusmod.picagods": "Picagods",
       "item.olympusmod.fire_sword": "Fire Sword",
+      "item.olympusmod.ray_gun": "Ray Gun",
       "item_group.olympusmod.olympus": "Olympus",
       "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
       "item.olympusmod.fire_stone": "Fire Stone",

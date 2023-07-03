@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.olympusmod.item.RayGunItem;
 import net.mcreator.olympusmod.item.PicagodsItem;
 import net.mcreator.olympusmod.item.FireSwordItem;
 import net.mcreator.olympusmod.item.FireStoneItem;
@@ -24,6 +25,7 @@ public class OlympusmodModItems {
 	public static final RegistryObject<Item> PICAGODS = REGISTRY.register("picagods", () -> new PicagodsItem());
 	public static final RegistryObject<Item> FIRE_STONE_ORE = block(OlympusmodModBlocks.FIRE_STONE_ORE);
 	public static final RegistryObject<Item> DEEP_SLATE_FIRE_STONE_ORE = block(OlympusmodModBlocks.DEEP_SLATE_FIRE_STONE_ORE);
+	public static final RegistryObject<Item> RAY_GUN = REGISTRY.register("ray_gun", () -> new RayGunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

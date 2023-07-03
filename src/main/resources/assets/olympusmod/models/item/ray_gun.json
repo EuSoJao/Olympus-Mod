@@ -1,0 +1,7 @@
+{
+  "parent": "olympusmod:custom/ray_gun",
+  "textures": {
+    "0": "olympusmod:block/ray_gun",
+    "particle": "olympusmod:item/ray_gun"
+  }
+}

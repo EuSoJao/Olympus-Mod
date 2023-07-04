@@ -138,6 +138,22 @@
           "src/main/java/net/mcreator/olympusmod/item/RayGunItem.java"
         ]
       }
+    },
+    {
+      "name": "FirestoneBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firestone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/olympusmod/models/item/firestone_block.json",
+          "src/main/java/net/mcreator/olympusmod/block/FirestoneBlockBlock.java",
+          "src/main/resources/assets/olympusmod/blockstates/firestone_block.json",
+          "src/main/resources/assets/olympusmod/models/block/firestone_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -149,6 +165,7 @@
       "item.olympusmod.ray_gun": "Ray Gun",
       "item_group.olympusmod.olympus": "Olympus",
       "block.olympusmod.fire_stone_ore": "Fire Stone Ore",
+      "block.olympusmod.firestone_block": "Firestone Block",
       "item.olympusmod.fire_stone": "Fire Stone",
       "block.olympusmod.deep_slate_fire_stone_ore": "DeepSlate FireStone Ore"
     }

@@ -26,6 +26,7 @@ public class OlympusmodModItems {
 	public static final RegistryObject<Item> FIRE_STONE_ORE = block(OlympusmodModBlocks.FIRE_STONE_ORE);
 	public static final RegistryObject<Item> DEEP_SLATE_FIRE_STONE_ORE = block(OlympusmodModBlocks.DEEP_SLATE_FIRE_STONE_ORE);
 	public static final RegistryObject<Item> RAY_GUN = REGISTRY.register("ray_gun", () -> new RayGunItem());
+	public static final RegistryObject<Item> FIRESTONE_BLOCK = block(OlympusmodModBlocks.FIRESTONE_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

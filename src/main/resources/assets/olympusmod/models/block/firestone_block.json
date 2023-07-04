@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "olympusmod:block/firestoneblock",
+    "up": "olympusmod:block/firestoneblock",
+    "north": "olympusmod:block/firestoneblock",
+    "east": "olympusmod:block/firestoneblock",
+    "south": "olympusmod:block/firestoneblock",
+    "west": "olympusmod:block/firestoneblock",
+    "particle": "olympusmod:block/firestoneblock"
+  },
+  "render_type": "solid"
+}
